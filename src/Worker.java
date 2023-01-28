@@ -1,3 +1,8 @@
+package src;
+
+import src.OnTaskDoneListener;
+import src.OnTaskErrorListener;
+
 public class Worker {
     private OnTaskDoneListener callback;
     private OnTaskErrorListener errorCallback;
